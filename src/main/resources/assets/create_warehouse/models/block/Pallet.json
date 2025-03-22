@@ -1,13 +1,13 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "create_warehouse:blocks/pallet_front",
-		"1": "create_warehouse:blocks/pallet_side",
-		"2": "create_warehouse:blocks/pallet_top",
-		"3": "create_warehouse:blocks/pallet_support_a",
-		"4": "create_warehouse:blocks/large_andesite_machine_bottom",
-		"5": "create_warehouse:blocks/pallet_support_b",
-		"particle": "create_warehouse:blocks/pallet_front"
+		"0": "create_warehouse:block/pallet_front",
+		"1": "create_warehouse:block/pallet_side",
+		"2": "create_warehouse:block/pallet_top",
+		"3": "create_warehouse:block/pallet_support_a",
+		"4": "create_warehouse:block/large_andesite_machine_bottom",
+		"5": "create_warehouse:block/pallet_support_b",
+		"particle": "create_warehouse:block/pallet_front"
 	},
 	"elements": [
 		{

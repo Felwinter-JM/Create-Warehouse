@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "create_warehouse:blocks/large_andesite_machine_bottom",
-		"1": "create_warehouse:blocks/large_depot",
-		"2": "create_warehouse:blocks/large_flat_machine_side",
-		"particle": "create_warehouse:blocks/large_andesite_machine_bottom"
+		"0": "create_warehouse:block/large_andesite_machine_bottom",
+		"1": "create_warehouse:block/large_depot",
+		"2": "create_warehouse:block/large_flat_machine_side",
+		"particle": "create_warehouse:block/large_andesite_machine_bottom"
 	},
 	"elements": [
 		{
