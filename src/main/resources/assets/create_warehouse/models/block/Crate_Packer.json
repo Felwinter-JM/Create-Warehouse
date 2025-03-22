@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "create_warehouse:blocks/packager_lift",
-		"1": "create_warehouse:blocks/crate_filler",
-		"particle": "create_warehouse:blocks/packager_lift"
+		"0": "create_warehouse:block/packager_lift",
+		"1": "create_warehouse:block/crate_filler",
+		"particle": "create_warehouse:block/packager_lift"
 	},
 	"elements": [
 		{
