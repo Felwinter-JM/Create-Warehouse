@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "item": "create:copper_sheet"
+    },
+    "a": {
+      "item": "create:andesite_alloy"
+    },
+    "p": {
+      "item": "create:fluid_pipe"
+    },
+    "C": {
+      "item": "create:copper_casing"
+    }
+  },
+  "pattern": [
+    "cpc",
+    "a a",
+    "aCa"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_warehouse:drum_packager"
+  }
+}
