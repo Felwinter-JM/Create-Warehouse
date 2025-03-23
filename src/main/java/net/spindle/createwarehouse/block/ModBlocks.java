@@ -20,6 +20,10 @@ public class ModBlocks {
     public static final DeferredBlock<Block> DRUM_PACKAGER = registerBlock("drum_packager",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.COPPER)));
+    public static final DeferredBlock<Block> DRUM_PACKAGER_TOP = registerBlock("drum_packager_top",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).sound(SoundType.COPPER).noOcclusion()));
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
