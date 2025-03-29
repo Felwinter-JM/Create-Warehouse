@@ -9,6 +9,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.spindle.createwarehouse.CreateWarehouse;
+import net.spindle.createwarehouse.block.custom.DrumPackagerBlock;
 import net.spindle.createwarehouse.item.ModItems;
 
 import java.util.function.Supplier;
@@ -17,12 +18,9 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(CreateWarehouse.MODID);
 
-    public static final DeferredBlock<Block> DRUM_PACKAGER = registerBlock("drum_packager",
-            () -> new Block(BlockBehaviour.Properties.of()
+    public static final DeferredBlock<DrumPackagerBlock> DRUM_PACKAGER = registerBlock("drum_packager",
+            () -> new DrumPackagerBlock(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.COPPER)));
-    public static final DeferredBlock<Block> DRUM_PACKAGER_TOP = registerBlock("drum_packager_top",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).sound(SoundType.COPPER).noOcclusion()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

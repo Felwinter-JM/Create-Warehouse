@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
+    "half=lower": {
       "model": "create_warehouse:block/drum_packager"
+    },
+    "half=upper": {
+      "model": "create_warehouse:block/drum_packager_upper"
     }
   }
 }
