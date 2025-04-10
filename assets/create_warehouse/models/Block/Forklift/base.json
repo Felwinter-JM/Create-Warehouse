@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "create_warehouse:blocks/forklift_a",
+		"particle": "create_warehouse:blocks/forklift_a"
+	},
+	"elements": [
+		{
+			"from": [-4, 1, -8],
+			"to": [4, 5, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 3, -4]},
+			"faces": {
+				"north": {"uv": [10, 11, 12, 12], "texture": "#0"},
+				"east": {"uv": [10, 12, 9, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10, 11, 12, 12], "texture": "#0"},
+				"west": {"uv": [10, 12, 9, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [12, 16, 10, 12], "texture": "#0"},
+				"down": {"uv": [26, -14, 18, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-8, -1, -8],
+			"to": [8, 1, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -2, -7]},
+			"faces": {
+				"north": {"uv": [12, 11, 16, 11.5], "texture": "#0"},
+				"east": {"uv": [12, 11.5, 16, 12], "texture": "#0"},
+				"south": {"uv": [12, 11, 16, 11.5], "texture": "#0"},
+				"west": {"uv": [12, 11.5, 16, 12], "texture": "#0"},
+				"up": {"uv": [16, 16, 12, 12], "texture": "#0"},
+				"down": {"uv": [16, 12, 12, 16], "texture": "#0"}
+			}
+		}
+	]
+}
