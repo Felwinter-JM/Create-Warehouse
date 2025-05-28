@@ -1,10 +1,16 @@
 {
   "variants": {
-    "half=lower": {
-      "model": "create_warehouse:block/drum_packager"
+    "half=lower,linked=false,powered=false": {
+      "model": "create_warehouse:block/drum_packager_bottom"
+    },
+    "half=lower,linked=false,powered=true": {
+      "model": "create_warehouse:block/drum_packager_bottom_powered"
+    },
+    "half=lower,linked=true": {
+      "model": "create_warehouse:block/drum_packager_bottom_linked"
     },
     "half=upper": {
-      "model": "create_warehouse:block/drum_packager_upper"
+      "model": "create_warehouse:block/drum_packager_top"
     }
   }
 }

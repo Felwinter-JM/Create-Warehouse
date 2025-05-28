@@ -1,7 +1,0 @@
-{
-	"credit": "Made with Blockbench",
-	"render_type": "minecraft:cutout",
-	"textures": {
-		"particle": "create_warehouse:block/drum_filler"
-	}
-}

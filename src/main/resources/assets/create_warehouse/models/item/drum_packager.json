@@ -1,5 +1,5 @@
 {
-  "parent": "create_warehouse:block/drum_packager",
+  "parent": "create_warehouse:item/drum_packager_complete_block",
   "display": {
     "gui": {
       "rotation": [ 30, 225, 0 ],
