@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "create_warehouse:block/drum_filler_linked",
+		"0": "create_warehouse:block/drum_packager_linked",
 		"1": "create_warehouse:block/packager_lift",
-		"particle": "create_warehouse:block/drum_filler_linked"
+		"particle": "create_warehouse:block/drum_packager_linked"
 	},
 	"render_type": "minecraft:cutout",
 	"elements": [
