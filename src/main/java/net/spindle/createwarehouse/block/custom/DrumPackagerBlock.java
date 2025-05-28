@@ -104,14 +104,14 @@ public class DrumPackagerBlock extends Block /*implements IBE<PackagerBlockEntit
     }
 
 
-    // TODO: updateShape is taking priority over most other and is causing unwanted block item drops || when placed the half which got placed first gets deleted right after
+    // TODO: updateShape is taking priority over most other and is causing unwanted block item drops
     @Override
     protected BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor level, BlockPos currentPos, BlockPos facingPos) {
         DoubleBlockHalf doubleblockhalf = state.getValue(HALF);
         if (doubleblockhalf == DoubleBlockHalf.UPPER) {
             BlockPos blockpos = currentPos.below();
             BlockState blockstate = level.getBlockState(blockpos);
-            if (blockstate.is(state.getBlock()) && blockstate.getValue(HALF) == DoubleBlockHalf.LOWER) {
+            if (blockstate.is(state.getBlock()) && blockstate.getValue(HALF) != DoubleBlockHalf.LOWER) {
                 BlockState blockstate1 = Blocks.AIR.defaultBlockState();
                 level.setBlock(blockpos, blockstate1, 35);
             }
@@ -119,7 +119,7 @@ public class DrumPackagerBlock extends Block /*implements IBE<PackagerBlockEntit
         if (doubleblockhalf == DoubleBlockHalf.LOWER) {
             BlockPos blockpos = currentPos.above();
             BlockState blockstate = level.getBlockState(blockpos);
-            if (blockstate.is(state.getBlock()) && blockstate.getValue(HALF) == DoubleBlockHalf.UPPER) {
+            if (blockstate.is(state.getBlock()) && blockstate.getValue(HALF) != DoubleBlockHalf.UPPER) {
                 BlockState blockstate1 = Blocks.AIR.defaultBlockState();
                 level.setBlock(blockpos, blockstate1, 35);
             }
